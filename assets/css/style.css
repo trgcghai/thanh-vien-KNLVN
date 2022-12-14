@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    margin: 16px 0;
+    padding-top: 16px;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.leader {
+    padding: 16px 8px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.main__container {
+    padding: 16px 8px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.member {
+    margin: 16px 0;
+    overflow: hidden;
+}
+
+.member--info {
+    margin: 24px 0;
+}
+
+.info--basic {
+    list-style: none;  
+    margin-bottom: 8px;
+}
+
+.info--basic li {
+    padding: 4px 0;
+}
+
+.social {
+    margin-top: 8px;
+    list-style: none;
+}
+
+.social li {
+    padding: 4px 0;
+}
+
+.social li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.social li:hover a {
+    color: blue;
+    opacity: 0.6;
+}
